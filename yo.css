@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-user-select: none;
+  background: #793C85;
+}
+html.yoing {
+  background: #876F8B;
+}
+html.error {
+  background: #BE2D2D;
+}
