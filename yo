@@ -1,3 +1,10 @@
 #!/usr/bin/env bash
 
-say yo
+if [[ -n $(which say) ]] ; then
+  say yo
+elif [[ -n $(which espeak) ]] ; then
+  espeak yo
+else
+  echo 'say or espeak must be installed' 1>&2
+  exit 1
+fi
