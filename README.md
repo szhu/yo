@@ -8,3 +8,4 @@ supported platforms
 
 - Mac OS X
 - Ubuntu (requires `espeak`)
+- [Web](http://szhu.github.io/yo/)
